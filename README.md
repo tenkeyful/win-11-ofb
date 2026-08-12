@@ -43,7 +43,7 @@ After Windows 11 is installed:
 - Chris Titus Tech's Windows Utility (Administrator PowerShell): `iwr -useb https://christitus.com/win | iex`
   - Tweaks
   - O&O ShutUp10++
-- [RyTuneX](https://rayenghanmi.me/rytunex/download.html "Rayen Ghanmi")
+- [RyTuneX](https://github.com/rayenghanmi/RyTuneX "Rayen Ghanmi")
 - [Winaero Tweaker](https://winaerotweaker.com "Sergey Tkachenko")
   - Windows 11:
     - Disable Background Apps
