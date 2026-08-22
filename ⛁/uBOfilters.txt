@@ -31,6 +31,7 @@ youtube.com##.ytp-suggested-action-badge-content-forward.ytp-suggested-action-ba
 youtube.com###shopping-timely-shelf
 youtube.com##ytd-merch-shelf-renderer.ytd-watch-metadata.style-scope
 youtube.com##div.ytp-suggested-action
+youtube.com##span.yt-formatted-string.style-scope:nth-of-type(5)
 ! Search with your voice
 youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
 ! Create > Upload video, Go live, Create post
@@ -52,11 +53,11 @@ youtube.com##.ytd-structured-description-content-renderer.style-scope > .ytd-exp
 youtube.com##div#panels-full-bleed-container
 ! Comment dislike button (not video dislike buttton)
 youtube.com###dislike-button > yt-button-shape
-! Membership
-www.youtube.com##.ytChipShapeOnlyTextPadding.ytChipShapeInactive.ytChipShapeChip
-www.youtube.com##div.ytFlexibleActionsViewModelAction > .ytSpecButtonViewModelHost
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytContentMetadataViewModelBadge)
-www.youtube.com##.ytwTimedAnimationButtonRendererHost
+! addons.mozilla.org/addon/hide-members-only-videos by UrbanWarlockGames got removed :( so this will do
+youtube.com##.ytChipShapeOnlyTextPadding.ytChipShapeInactive.ytChipShapeChip
+youtube.com##div.ytFlexibleActionsViewModelAction > .ytSpecButtonViewModelHost
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytContentMetadataViewModelBadge)
+youtube.com##.ytwTimedAnimationButtonRendererHost
 ! Make notification and live label's color match with the custom YouTube theme I'm using
 youtube.com##.ytBadgeShapeLive { background: var(--yt-spec-static-brand-red) !important }
 youtube.com##.ytBadgeShapeThumbnailLive { background: var(--yt-spec-static-brand-red) !important }
