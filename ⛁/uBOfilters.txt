@@ -1,7 +1,7 @@
 ! Title: Nhân Trí's Personal Filter List
 ! Description: For my personal use. Intended for Floorp and Zen browser.
-! Version: 2.0.1
-! Last modified: 2026-08-07
+! Version: 2.0.2
+! Last modified: 2026-08-22
 ! Expires: 7 days
 ! Homepage: https://github.com/nhantrichuyenanh/win-11-ofb
 ! License: https://creativecommons.org/publicdomain/zero/1.0/
@@ -53,6 +53,11 @@ youtube.com##.ytd-structured-description-content-renderer.style-scope > .ytd-exp
 youtube.com##div#panels-full-bleed-container
 ! Comment dislike button (not video dislike buttton)
 youtube.com###dislike-button > yt-button-shape
+! Membership
+www.youtube.com##.ytChipShapeOnlyTextPadding.ytChipShapeInactive.ytChipShapeChip
+www.youtube.com##div.ytFlexibleActionsViewModelAction > .ytSpecButtonViewModelHost
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytContentMetadataViewModelBadge)
+www.youtube.com##.ytwTimedAnimationButtonRendererHost
 ! Make notification and live label's color match with the custom YouTube theme I'm using
 youtube.com##.ytBadgeShapeLive { background: var(--yt-spec-static-brand-red) !important }
 youtube.com##.ytBadgeShapeThumbnailLive { background: var(--yt-spec-static-brand-red) !important }
