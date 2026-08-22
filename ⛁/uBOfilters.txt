@@ -1,5 +1,5 @@
 ! Title: Nhân Trí's Personal Filter List
-! Description: For my personal use. Intended for Floorp and Zen browser.
+! Description: Personal uBO filters for Floorp and Zen Browser.
 ! Version: 2.0.2
 ! Last modified: 2026-08-22
 ! Expires: 7 days
