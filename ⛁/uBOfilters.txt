@@ -18,6 +18,10 @@ google.com##.watermark
 google.com##.dark.google.bingchat-box.asked > hr
 ! https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist removes .ai-dropdown-option for no reason (even though I checked the list and it only removes domain, not class?!?!) so I will just remove the AI Overview
 google.com##.YzCcne:remove()
+! the gap between navbar and search results
+google.com###slim_appbar
+google.com##.dRpWwb.M8OgIe.bzXtMb > .EjQTId.YNk70c
+google.com##.OMqmfd.w2jn8d.zLSRge
 
 ! === YouTube ===
 ! SponsorBlock
