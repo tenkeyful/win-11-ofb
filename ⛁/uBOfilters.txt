@@ -1,7 +1,7 @@
 ! Title: Nhân Trí's Personal Filter List
 ! Description: Personal uBO filters for Floorp and Zen Browser.
 ! Version: 2.0.2
-! Last modified: 2026-08-22
+! Last modified: 2026-08-23
 ! Expires: 7 days
 ! Homepage: https://github.com/nhantrichuyenanh/win-11-ofb
 ! License: https://creativecommons.org/publicdomain/zero/1.0/
@@ -58,7 +58,6 @@ youtube.com##div#panels-full-bleed-container
 ! Comment dislike button (not video dislike buttton)
 youtube.com###dislike-button > yt-button-shape
 ! https://addons.mozilla.org/addon/hide-members-only-videos by UrbanWarlockGames got removed :( so this will do
-youtube.com##.ytChipShapeOnlyTextPadding.ytChipShapeInactive.ytChipShapeChip
 youtube.com##div.ytFlexibleActionsViewModelAction > .ytSpecButtonViewModelHost
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytContentMetadataViewModelBadge)
 youtube.com##.ytwTimedAnimationButtonRendererHost
