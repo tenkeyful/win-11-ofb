@@ -1,7 +1,7 @@
 ! Title: Nhân Trí's Personal Filter List
 ! Description: Personal uBO filters for Floorp and Zen Browser.
-! Version: 2.0.2
-! Last modified: 2026-08-23
+! Version: 2.0.3
+! Last modified: 2026-09-16
 ! Expires: 7 days
 ! Homepage: https://github.com/nhantrichuyenanh/win-11-ofb
 ! License: https://creativecommons.org/publicdomain/zero/1.0/
@@ -22,6 +22,7 @@ google.com##.YzCcne:remove()
 google.com###slim_appbar
 google.com##.dRpWwb.M8OgIe.bzXtMb > .EjQTId.YNk70c
 google.com##.OMqmfd.w2jn8d.zLSRge
+google.com##div.EjQTId.YNk70c:nth-of-type(1)
 
 ! === YouTube ===
 ! SponsorBlock
@@ -102,6 +103,10 @@ music.youtube.com###player
 music.youtube.com###main-panel
 ! Make left side that has music videos fill up the whole screen, now that video player is gone
 music.youtube.com##.side-panel.ytmusic-player-page { width: 100% !important; max-width: 850px !important; }
+
+! === Claude ===
+! https://github.com/lugia19/Claude-Usage-Extension
+claude.ai##div.mt-1.ut-sidebar-footer.ut-desktop-footer
 
 ! === Cambridge Dictionary ===
 ! Header
