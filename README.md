@@ -579,17 +579,27 @@ W
 
 ⚬ File Explorer
 
-⚬ Start Menu
+⚬ Start Menu (Windows keeps fucking breaks the layout every time I installed an update, this is my 5th time updating it)
 ```
 {
   "theme": "Windows11_Metro10",
-  "disableNewStartMenuLayout": 1,
+  "disableNewStartMenuLayout": 0,
+  "webContentStyles[0].target": "",
+  "webContentStyles[0].styles[0]": "",
+  "webContentCustomJs": "",
+  "styleConstants[0]": "",
+  "resourceVariables[0].variableKey": "",
+  "resourceVariables[0].value": "",
+  "themeResourceVariables[0]": "",
   "controlStyles[0].target": "Windows.UI.Xaml.Controls.ScrollViewer",
   "controlStyles[0].styles[0]": "VerticalScrollBarVisibility=Hidden",
-  "controlStyles[1].target": "StartDocked.AllAppsGridListView#AppsList",
-  "controlStyles[1].styles[0]": "Padding=109,0,0,0",
-  "controlStyles[2].target": "Windows.UI.Xaml.Controls.Grid#AllAppsPaneHeader",
-  "controlStyles[2].styles[0]": "Margin=125,0,0,0"
+  "controlStyles[1].target": "StartMenu.PinnedList",
+  "controlStyles[1].styles[0]": "Margin=0,0,0,0",
+  "controlStyles[1].styles[1]": "Height=465",
+  "controlStyles[2].target": "Microsoft.UI.Xaml.Controls.DropDownButton",
+  "controlStyles[2].styles[0]": "Margin=0,0,225,0",
+  "controlStyles[3].target": "Windows.UI.Xaml.Controls.Primitives.ToggleButton",
+  "controlStyles[3].styles[0]": "Visibility=Collapsed"
 }
 ```
 ⚬ Taskbar
