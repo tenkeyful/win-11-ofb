@@ -51,6 +51,7 @@ youtube.com###related
 youtube.com##ytd-playlist-panel-renderer[collapsible][collapsed][use-color-palette] .header.ytd-playlist-panel-renderer { background-color: var(--yt-spec-additive-background) !important }
 ! Description
 youtube.com##ytd-watch-metadata[description-collapsed] #description.ytd-watch-metadata:hover { background: var(--yt-spec-additive-background) !important }
+youtube.com##ytd-watch-metadata[description-collapsed] [style*="color:"] { color: unset !important; }
 youtube.com###info > a.yt-formatted-string.style-scope.yt-simple-endpoint { color: var(--yt-spec-static-brand-red) !important }
 ! AI-generated video summary
 youtube.com##.ytd-structured-description-content-renderer.style-scope > .ytd-expandable-metadata-renderer.style-scope
