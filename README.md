@@ -39,7 +39,7 @@ After Windows 11 is installed:
 ### 1. Major tweaks:
 
 **Required:**
-- [CrapFixer](https://github.com/builtbybel/CrapFixer/releases "Builtbybel") or [Winslop](https://github.com/builtbybel/Winslop/releases)
+- [CrapFixer](https://github.com/builtbybel/CrapFixer/releases/latest "Builtbybel") or [Winslop](https://github.com/builtbybel/Winslop/releases/latest)
 - Chris Titus Tech's Windows Utility (Administrator PowerShell): `iwr -useb https://christitus.com/win | iex`
   - Tweaks
   - O&O ShutUp10++
@@ -93,9 +93,9 @@ After Windows 11 is installed:
 - [Wintoys](https://apps.microsoft.com/detail/9P8LTPGCBZXD "Bogdan Pătrăucean")
 
 **Optional:**
-- [Sparkle](https://github.com/Parcoil/Sparkle/releases)
+- [Sparkle](https://github.com/Parcoil/Sparkle/releases/latest)
 - [Winhance](https://winhance.net "Marco du Plessis")
-- [WinScript](https://github.com/flick9000/winscript/releases "Francesco")
+- [WinScript](https://github.com/flick9000/winscript/releases/latest "Francesco")
 - [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI)
 
 ### 2. Minor tweaks:
@@ -272,7 +272,9 @@ B
 C
 - Calculator
 - [Camomile App](https://camomileapp.com)
-- [Context Menu Manager](https://github.com/BluePointLilac/ContextMenuManager/releases)
+- ChatGPT
+- [Claude](https://claude.com/download)
+- [Context Menu Manager](https://github.com/BluePointLilac/ContextMenuManager/releases/latest)
 
 D
 - [DefenderUI](https://cyberlock.global/DefenderUI.aspx)
@@ -291,20 +293,18 @@ F
 - [FxSound](https://fxsound.com/download)
 
 G
-- [GeoGebra Classic](https://geogebra.org/download)
 - [GIMP](https://gimp.org/downloads)
 	- [Resynthesizer](https://gimpchat.com/viewtopic.php?f=7&t=21535#p294979)
 
 I
-- [Icaros](https://github.com/Xanashi/Icaros/releases)
-- [Image Glass](https://imageglass.org/releases)
+- [Icaros](https://github.com/Xanashi/Icaros/releases/latest)
+- [Image Glass](https://imageglass.org/releases/latest)
 	- [WinUI3 Dark](https://imageglass.org/theme/winui3-dark-mizan-53)
 
 K
 - [Kdenlive](https://kdenlive.org/download)
 
 M
-- [Microsoft Teams](https://microsoft.com/en-us/microsoft-teams/download-app)
 - [MinGW (VS Code)](https://code.visualstudio.com/docs/cpp/config-mingw)
 - [MKVToolNix](https://mkvtoolnix.download/downloads.html#windows)
 
@@ -321,7 +321,7 @@ P
 - Paint
 - [PDF24 Creator](https://tools.pdf24.org/en/creator#download) [🔍︎](#afterthought "Afterthought")
 - PowerToolbox
-- [PowerToys](https://github.com/microsoft/PowerToys/releases)
+- [PowerToys](https://github.com/microsoft/PowerToys/releases/latest)
 - [Proton Pass](https://proton.me/pass/download)
 - [Proton VPN](https://protonvpn.com/download)
 - Python: `(installing either Anaconda or Python Software Foundation provides the same Python environment)`
@@ -330,7 +330,7 @@ P
 
 Q
 - [qBittorrent](https://qbittorrent.org/download)
-	- [ayuDark](https://github.com/maboroshin/qBittorrentDarktheme/releases)
+	- [ayuDark](https://github.com/maboroshin/qBittorrentDarktheme/releases/latest)
 - [QuickCPU](https://coderbag.com/product/quickcpu)
 
 R
@@ -339,7 +339,7 @@ R
 S
 - Screenbox
 - [SDelete](https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete)
-	- [SDelete Gui](https://github.com/Tulpep/SDelete-Gui/releases)
+	- [SDelete Gui](https://github.com/Tulpep/SDelete-Gui/releases/latest)
 - [Send to Kindle](https://amazon.com/sendtokindle/pc)
 - Skyline Weather
 - Snipping Tool
@@ -347,6 +347,7 @@ S
 
 T
 - Terminal
+- [Thio's Background App Notifier](github.com/ThioJoe/Thio-Background-App-Notifier/releases/latest)
 - [TI Connect CE](https://education.ti.com/en/software/update/84-ce-software-update)
 - TranslucentTB
 
