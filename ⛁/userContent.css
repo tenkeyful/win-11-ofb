@@ -19,6 +19,14 @@
       background-size: cover !important;
       position: relative !important;
   }
+
+  .top-site-icon rich-icon {
+    opacity: 0.25 !important;
+  }
+
+  .title-label {
+    display: none !important;
+  }
   
   .personalizeButtonWrapper button {
       background-color: transparent !important;
