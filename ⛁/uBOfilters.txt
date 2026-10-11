@@ -110,6 +110,8 @@ music.youtube.com###player
 music.youtube.com###main-panel
 ! Make left side that has music videos fill up the whole screen, now that video player is gone
 music.youtube.com##.side-panel.ytmusic-player-page { width: 100% !important; max-width: 850px !important; }
+! Make the playlist or podcast information in the center of the screen
+music.youtube.com###primary {position: fixed !important; top: 10% !important; left: 50% !important; transform: translate(-50%, -50%) !important;}
 
 ! === Claude ===
 ! https://github.com/lugia19/Claude-Usage-Extension
