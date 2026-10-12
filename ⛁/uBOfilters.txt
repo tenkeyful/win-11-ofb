@@ -98,6 +98,8 @@ youtube.com##.CommenTime-comment-user
 youtube.com##.CommenTime-comment-content > div > div > br
 youtube.com##.CommenTime-header-title-group > div:nth-of-type(1)
 youtube.com##.CommenTime-comment-content a
+! https://chromewebstore.google.com/detail/youtube-chapter-progress/jjfpbepncodafeimliamngldphkgdmpa (wait... aren't you using a Firefox fork browser? yes, but it's Floorp, believe it or not it can install Chrome extensions)
+youtube.com##.chapter.youtube-chapter-progress-container > .progress { background-color: var(--yt-spec-static-brand-red) !important }
 
 ! === YouTube Music ===
 ! Types of music videos near the top of Home
