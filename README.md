@@ -271,7 +271,6 @@ B
 
 C
 - Calculator
-- [Camomile App](https://camomileapp.com)
 - ChatGPT
 - [Claude](https://claude.com/download)
 - [Context Menu Manager](https://github.com/BluePointLilac/ContextMenuManager/releases)
