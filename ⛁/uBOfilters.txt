@@ -1,7 +1,7 @@
 ! Title: tenkeyful's Personal Filter List
 ! Description: Personal uBO filters for Floorp and Zen Browser.
-! Version: 2.0.5
-! Last modified: 2026-10-12
+! Version: 2.0.6
+! Last modified: 2026-10-25
 ! Expires: 7 days
 ! Homepage: https://github.com/tenkeyful/win-11-ofb
 ! License: https://creativecommons.org/publicdomain/zero/1.0/
@@ -50,8 +50,9 @@ youtube.com###related
 ! Playlist in the left side
 youtube.com##ytd-playlist-panel-renderer[collapsible][collapsed][use-color-palette] .header.ytd-playlist-panel-renderer { background-color: var(--yt-spec-additive-background) !important }
 ! Description
+youtube.com###top-row { border-bottom: none !important }
 youtube.com##ytd-watch-metadata[description-collapsed] #description.ytd-watch-metadata:hover { background: var(--yt-spec-additive-background) !important }
-youtube.com##ytd-watch-metadata[description-collapsed] [style*="color:"] { color: unset !important; }
+youtube.com##ytd-watch-metadata[description-collapsed] [style*="color:"] { color: unset !important }
 youtube.com###info > a.yt-formatted-string.style-scope.yt-simple-endpoint { color: var(--yt-spec-static-brand-red) !important }
 ! AI-generated video summary
 youtube.com##.ytd-structured-description-content-renderer.style-scope > .ytd-expandable-metadata-renderer.style-scope
@@ -79,8 +80,8 @@ youtube.com##.ryd-tooltip-new-design.ryd-tooltip { margin-left: 50px !important 
 ! https://github.com/lcas-k/Youtube-Sentiment-Extension
 youtube.com##.sentiment-cont-neg > div { background-color: #fff !important }
 youtube.com##.sentiment-cont-pos > div { background-color: #fff !important }
-youtube.com##.reload-sentiment-btn { background: var(--yt-spec-menu-background) !important; }
-youtube.com##.fetch-sentiment-btn { background: var(--yt-spec-menu-background) !important; }
+youtube.com##.reload-sentiment-btn { background: var(--yt-spec-menu-background) !important }
+youtube.com##.fetch-sentiment-btn { background: var(--yt-spec-menu-background) !important }
 ! https://addons.mozilla.org/addon/commentime
 youtube.com###liveCommentPanelButton
 youtube.com##b
