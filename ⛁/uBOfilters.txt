@@ -1,7 +1,7 @@
 ! Title: tenkeyful's Personal Filter List
 ! Description: Personal uBO filters for Floorp and Zen Browser.
 ! Version: 2.0.6
-! Last modified: 2026-10-25
+! Last modified: 2026-10-26
 ! Expires: 7 days
 ! Homepage: https://github.com/tenkeyful/win-11-ofb
 ! License: https://creativecommons.org/publicdomain/zero/1.0/
