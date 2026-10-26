@@ -49,8 +49,10 @@ youtube.com###secondary
 youtube.com###related
 ! Playlist in the left side
 youtube.com##ytd-playlist-panel-renderer[collapsible][collapsed][use-color-palette] .header.ytd-playlist-panel-renderer { background-color: var(--yt-spec-additive-background) !important }
-! Description
+! The line between #top-row and #bottom-row in #above-the-fold
 youtube.com###top-row { border-bottom: none !important }
+! Description
+youtube.com##ytd-watch-metadata:style(--yt-saturated-base-background: unset !important; --yt-saturated-raised-background: unset !important; --yt-saturated-additive-background: unset !important; --yt-saturated-text-primary: unset !important; --yt-saturated-text-secondary: unset !important; --yt-saturated-outline: unset !important;)
 youtube.com##ytd-watch-metadata[description-collapsed] #description.ytd-watch-metadata:hover { background: var(--yt-spec-additive-background) !important }
 youtube.com##ytd-watch-metadata[description-collapsed] [style*="color:"] { color: unset !important }
 youtube.com###info > a.yt-formatted-string.style-scope.yt-simple-endpoint { color: var(--yt-spec-static-brand-red) !important }
