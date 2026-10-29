@@ -1,7 +1,7 @@
 ! Title: tenkeyful's Personal Filter List
 ! Description: Personal uBO filters for Floorp and Zen Browser.
-! Version: 2.0.6
-! Last modified: 2026-10-26
+! Version: 2.0.7
+! Last modified: 2026-10-29
 ! Expires: 7 days
 ! Homepage: https://github.com/tenkeyful/win-11-ofb
 ! License: https://creativecommons.org/publicdomain/zero/1.0/
@@ -84,23 +84,6 @@ youtube.com##.sentiment-cont-neg > div { background-color: #fff !important }
 youtube.com##.sentiment-cont-pos > div { background-color: #fff !important }
 youtube.com##.reload-sentiment-btn { background: var(--yt-spec-menu-background) !important }
 youtube.com##.fetch-sentiment-btn { background: var(--yt-spec-menu-background) !important }
-! https://addons.mozilla.org/addon/commentime
-youtube.com###liveCommentPanelButton
-youtube.com##b
-youtube.com###CommenTimeFloatToggleBtn
-youtube.com###CommenTimeOverflowFloatToggleBtn
-youtube.com##.CommenTime-timestamp-link
-youtube.com##.CommenTime-overflow-search-row
-youtube.com##.CommenTime-panel-floating.visible.CommenTime-panel-container { background: var(--yt-spec-base-background) !important }
-youtube.com##.CommenTime-header-overflow-menu { background: var(--yt-spec-base-background) !important }
-youtube.com##.CommenTime-panel-header { background: var(--yt-spec-base-background) !important }
-youtube.com##.CommenTime-comment-link { color: var(--yt-spec-static-brand-red) !important }
-youtube.com###CommenTimeOpacitySlider::-moz-range-thumb { background: var(--yt-spec-static-brand-red) !important }
-youtube.com##.CommenTime-manual-sync-btn { background-color: var(--yt-spec-static-brand-red) !important }
-youtube.com##.CommenTime-comment-user
-youtube.com##.CommenTime-comment-content > div > div > br
-youtube.com##.CommenTime-header-title-group > div:nth-of-type(1)
-youtube.com##.CommenTime-comment-content a
 ! https://chromewebstore.google.com/detail/youtube-chapter-progress/jjfpbepncodafeimliamngldphkgdmpa (wait... aren't you using a Firefox fork browser? yes, but it's Floorp, believe it or not it can install Chrome extensions)
 youtube.com##.chapter.youtube-chapter-progress-container > .progress { background-color: var(--yt-spec-static-brand-red) !important }
 
