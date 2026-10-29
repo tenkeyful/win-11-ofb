@@ -101,6 +101,12 @@ music.youtube.com##.side-panel.ytmusic-player-page { width: 100% !important; max
 ! Make the playlist or podcast information in the center of the screen
 music.youtube.com###primary {position: fixed !important; top: 10% !important; left: 50% !important; transform: translate(-50%, -50%) !important;}
 
+! == ChatGPT ===
+! https://greasyfork.org/scripts/584604
+chatgpt.com###bulk-archive-btn
+chatgpt.com##.bulk-controls-panel-chatgpt { background-color: var(--darkreader-bg--app-color-background-surface-under, var(--darkreader-background-ffffff, #1e1e2e)) !important }
+chatgpt.com##.bulk-status { color: var(--darkreader-text--color-text-user-message, var(--darkreader-text-000000, #e8e6e3)) !important }
+
 ! === Claude ===
 ! https://github.com/lugia19/Claude-Usage-Extension
 claude.ai##div.mt-1.ut-sidebar-footer.ut-desktop-footer
